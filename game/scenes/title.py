@@ -1,6 +1,6 @@
 import pygame
-from ..engine.scene import Scene
-from ..engine.engine import Engine
+from engine.scene import Scene
+from engine.engine import Engine
 from .story import StoryScene
 
 

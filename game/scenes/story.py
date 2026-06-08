@@ -2,8 +2,8 @@
 import json
 import os
 import pygame
-from ..engine.scene import Scene
-from ..engine.engine import Engine
+from engine.scene import Scene
+from engine.engine import Engine
 
 # vars for placeholder mockup recreation
 
@@ -122,7 +122,7 @@ class StoryScene(Scene):
 
 
 def draw_background(surface: pygame.Surface) -> None:
-    pygame.draw.rect(surface, (0, 0, 0), (0, 0, BG_W, SCREEN_H))
+    pygame.draw.rect(surface, (64, 64, 64), (0, 0, BG_W, SCREEN_H))
 
 
 def draw_sidebar(surface: pygame.Surface, font_stat: pygame.font.Font, font_menu: pygame.font.Font) -> None:
